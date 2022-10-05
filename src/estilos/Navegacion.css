@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.logo-creatibee{
+    max-width: 15vw;
+}
+
+.animacion-color{
+    height: 67px;
+    animation-name: aparecer;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aparecer {
+    0%{
+    background-color: transparent;
+    height: 67px;
+    }
+    100%{
+    background-color: #363643;
+    height: 50px;
+    }
+}
+
+.animacion-quitar-color{
+    height: 50px;
+    animation-name: desaparecer;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desaparecer {
+    0%{
+        background-color: #363643;
+        height: 50px;
+    }
+    100%{
+        background-color: transparent;
+        height: 67px;
+    }
+}
+
+.btn-nav{
+    font-family: 'Montserrat', sans-serif!important;
+    background-color: #FDE563!important;
+    color: #363643!important;
+    border: 1px solid #FDE563!important;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+}
+
+.btn-nav:hover{
+    background-color: #363643!important;
+    color: white!important;
+    border: 1px solid #363643!important;
+    text-decoration: underline!important;
+}
+
+.link{
+    font-family: 'Montserrat', sans-serif!important;
+    color: white!important;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+}
+
+.link:hover{
+    animation-name: linea;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes linea {
+    0%{
+        background-size: 0% 2px;
+    }
+    100%{
+        background-size: 100% 2px;
+    }
+}
+
+.active{
+    color: #FDE563!important;
+}
+

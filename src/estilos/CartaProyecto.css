@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.titulo{
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.texto{
+    font-family: 'Quicksand', sans-serif!important;
+    font-style: italic;
+}

@@ -1,0 +1,10 @@
+.contenedor-navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.contenedor-pie{
+    background-color: #363643;
+}

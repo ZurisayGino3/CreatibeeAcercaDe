@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.pie-pagina p{
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 0.9rem!important;
+}
+
+.pie-pagina hr{
+    background-color: white;
+    height: 0.1rem;
+    opacity: 100;
+}
+
+.pie-pagina a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+.pie-pagina a:hover{
+    color: #FDE563;
+    border: 2px solid #FDE563;
+}

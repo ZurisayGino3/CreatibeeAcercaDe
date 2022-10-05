@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.hexagono{
+  clip-path: polygon(25% 0%, 65% 0%, 90% 50%, 65% 100%, 25% 100%, 0% 50%);
+  width: 40vw;
+  cursor: pointer;
+}
+.texto-cliente{
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.sobreponer{
+  margin-top: -20%!important;
+}
+
+.nombre-cliente{
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}

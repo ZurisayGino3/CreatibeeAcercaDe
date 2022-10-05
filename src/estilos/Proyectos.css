@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.proyectos h2{
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.proyectos p{
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-pro{
+    width: 13rem!important;
+    font-family: 'Montserrat', sans-serif!important;
+    color: white!important;
+    border: none!important;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    background-size: 300% 100%!important;
+    -o-transition: all .4s ease-in-out!important;
+    -webkit-transition: all .4s ease-in-out!important;
+    transition: all .4s ease-in-out!important;
+}
+
+.btn-pro:hover{
+    background-position: 100% 0!important;
+    -o-transition: all .4s ease-in-out!important;
+    -webkit-transition: all .4s ease-in-out!important;
+    transition: all .4s ease-in-out!important;
+}
+
+.color-1 {
+    background-image: linear-gradient(to right, #363643, #666680, #cccceb,#666680, #363643)!important;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.contenedor-caption{
+    position: absolute;
+    top: 14rem;
+}
+
+.btn-car{
+    font-family: 'Montserrat', sans-serif!important;
+    background-color: #FDE563!important;
+    color: #363643!important;
+    border: 1px solid #FDE563!important;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+}
+
+.btn-car:hover{
+    background-color: #363643!important;
+    color: white!important;
+    border: 1px solid #363643!important;
+}
+
+.contenedor-caption h1{
+    font-size: 2.8rem;
+    font-family: 'Quicksand', sans-serif;
+}
